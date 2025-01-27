@@ -1,0 +1,50 @@
+[
+    {
+        "id": "cb92aae662d04686",
+        "type": "ui_gauge",
+        "z": "fce33f166049bc70",
+        "name": "Active Power Total",
+        "group": "e3925f4b06deceda",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Active Power Total",
+        "label": "kW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "e3925f4b06deceda",
+        "type": "ui_group",
+        "name": "Voltage Average",
+        "tab": "d9e6d5f88c7be74a",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d9e6d5f88c7be74a",
+        "type": "ui_tab",
+        "name": "Energy Meter Dashboard",
+        "icon": "mi-Energy_Meter_Dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
